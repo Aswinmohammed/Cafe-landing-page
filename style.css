@@ -1,0 +1,190 @@
+body{
+    background-color: gray;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icon-container div{
+    position: relative;
+}
+
+.icon-container img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3%;
+    left: 42%;
+    
+}
+
+.icon-container h3{
+    position: absolute;
+    top: 5%;
+    color: white;
+    right: 41%;
+    font-size: 1.7rem;
+}
+
+.menu-container{
+    background-color: white;
+    width: 42%;
+    height: 2200px;
+    border:1px solid none;
+    margin:100px auto;
+    text-align: center;
+}
+
+.menu-container h2{
+    color: #996633;
+    text-align: center;
+    margin-top: 40px;
+}
+
+table {
+    margin: 20px 8px 0px 20px;
+    width: 90%;
+    border-collapse: collapse;
+
+}
+
+table th {
+    color: #555;
+    padding: 8px 0;
+    font-weight: 700;
+    border-bottom: 2px solid #ddd;
+}
+
+table tr td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+}
+
+table tbody tr td:first-child {
+    text-align: left;
+}
+
+table tr td:last-child {
+    text-align: center;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f5efef;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.items-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.item {
+    text-align: center;
+    margin: 0 8px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+}
+
+.item p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.item span {
+    display: block;
+    margin-top: 5px;
+    font-size: 1rem;
+    color: #666;
+}
+
+#hr-line{
+    width: 60%;
+    margin: 30px auto;
+    border: none;
+    border-top: 2px solid rgb(223, 217, 217);
+}
+
+
+.about-section p {
+    line-height: 1.6;
+    color: #666;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: justify;
+    padding-left: 80px;
+}
+
+.contact-section p{
+    color: #666;
+    font-size: 16px;
+    margin-top: 25px;
+    text-align:center ;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+footer{
+    position: relative;
+}
+
+
+ footer p {
+    left: 500px;
+    bottom: 40px;
+    position: absolute;
+    color: white;
+}
+
+@media (min-width:375px) and (max-width:678px) {
+    
+    .icon-container img{
+        left: 22%;
+    }
+
+    .icon-container h3{
+        right: 20%;
+    }
+    
+    
+    .menu-container{
+        width: 90%;
+        height: 2800px;
+    }
+
+    .items-container {
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .about-section p{
+        padding-left: 10px;
+    }
+
+    footer{
+        position: relative;
+    }
+    
+    
+     footer p {
+        left: 7%;
+        position: absolute;
+        color: white;
+    }
+    
+}
